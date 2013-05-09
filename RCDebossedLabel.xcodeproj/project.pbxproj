@@ -16,22 +16,28 @@
 		9602E8C117341A9C000482D5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9602E8C017341A9C000482D5 /* Default.png */; };
 		9602E8C317341A9C000482D5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9602E8C217341A9C000482D5 /* Default@2x.png */; };
 		9602E8C517341A9C000482D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9602E8C417341A9C000482D5 /* Default-568h@2x.png */; };
+		9602E8CF17341F60000482D5 /* RCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9602E8CE17341F60000482D5 /* RCMainViewController.m */; };
+		9BECB3FF173B1A30001BBFA0 /* RCDebossedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BECB3FE173B1A30001BBFA0 /* RCDebossedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9602E8AB17341A9B000482D5 /* StringMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StringMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9602E8AB17341A9B000482D5 /* RCDebossedLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCDebossedLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9602E8AE17341A9B000482D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9602E8B017341A9B000482D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9602E8B217341A9B000482D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9602E8B617341A9C000482D5 /* StringMask-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StringMask-Info.plist"; sourceTree = "<group>"; };
+		9602E8B617341A9C000482D5 /* RCDebossedLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RCDebossedLabel-Info.plist"; sourceTree = "<group>"; };
 		9602E8B817341A9C000482D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9602E8BA17341A9C000482D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9602E8BC17341A9C000482D5 /* StringMask-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StringMask-Prefix.pch"; sourceTree = "<group>"; };
 		9602E8BD17341A9C000482D5 /* RCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAppDelegate.h; sourceTree = "<group>"; };
 		9602E8BE17341A9C000482D5 /* RCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAppDelegate.m; sourceTree = "<group>"; };
 		9602E8C017341A9C000482D5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9602E8C217341A9C000482D5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9602E8C417341A9C000482D5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9602E8CD17341F60000482D5 /* RCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMainViewController.h; sourceTree = "<group>"; };
+		9602E8CE17341F60000482D5 /* RCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMainViewController.m; sourceTree = "<group>"; };
+		9BECB3FD173B1A30001BBFA0 /* RCDebossedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDebossedLabel.h; sourceTree = "<group>"; };
+		9BECB3FE173B1A30001BBFA0 /* RCDebossedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDebossedLabel.m; sourceTree = "<group>"; };
+		9BECB400173B1B1D001BBFA0 /* RCDebossedLabel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCDebossedLabel-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +57,8 @@
 		9602E8A217341A9B000482D5 = {
 			isa = PBXGroup;
 			children = (
-				9602E8B417341A9B000482D5 /* StringMask */,
+				9BECB3FC173B19C4001BBFA0 /* RCDebossedLabel */,
+				9602E8B417341A9B000482D5 /* Example */,
 				9602E8AD17341A9B000482D5 /* Frameworks */,
 				9602E8AC17341A9B000482D5 /* Products */,
 			);
@@ -60,7 +67,7 @@
 		9602E8AC17341A9B000482D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9602E8AB17341A9B000482D5 /* StringMask.app */,
+				9602E8AB17341A9B000482D5 /* RCDebossedLabel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,23 +82,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9602E8B417341A9B000482D5 /* StringMask */ = {
+		9602E8B417341A9B000482D5 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				9602E8BD17341A9C000482D5 /* RCAppDelegate.h */,
 				9602E8BE17341A9C000482D5 /* RCAppDelegate.m */,
+				9602E8CD17341F60000482D5 /* RCMainViewController.h */,
+				9602E8CE17341F60000482D5 /* RCMainViewController.m */,
 				9602E8B517341A9C000482D5 /* Supporting Files */,
 			);
-			path = StringMask;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		9602E8B517341A9C000482D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9602E8B617341A9C000482D5 /* StringMask-Info.plist */,
+				9BECB400173B1B1D001BBFA0 /* RCDebossedLabel-Prefix.pch */,
+				9602E8B617341A9C000482D5 /* RCDebossedLabel-Info.plist */,
 				9602E8B717341A9C000482D5 /* InfoPlist.strings */,
 				9602E8BA17341A9C000482D5 /* main.m */,
-				9602E8BC17341A9C000482D5 /* StringMask-Prefix.pch */,
 				9602E8C017341A9C000482D5 /* Default.png */,
 				9602E8C217341A9C000482D5 /* Default@2x.png */,
 				9602E8C417341A9C000482D5 /* Default-568h@2x.png */,
@@ -99,12 +108,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9BECB3FC173B19C4001BBFA0 /* RCDebossedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9BECB3FD173B1A30001BBFA0 /* RCDebossedLabel.h */,
+				9BECB3FE173B1A30001BBFA0 /* RCDebossedLabel.m */,
+			);
+			path = RCDebossedLabel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9602E8AA17341A9B000482D5 /* StringMask */ = {
+		9602E8AA17341A9B000482D5 /* RCDebossedLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9602E8C817341A9C000482D5 /* Build configuration list for PBXNativeTarget "StringMask" */;
+			buildConfigurationList = 9602E8C817341A9C000482D5 /* Build configuration list for PBXNativeTarget "RCDebossedLabel" */;
 			buildPhases = (
 				9602E8A717341A9B000482D5 /* Sources */,
 				9602E8A817341A9B000482D5 /* Frameworks */,
@@ -114,9 +132,9 @@
 			);
 			dependencies = (
 			);
-			name = StringMask;
-			productName = StringMask;
-			productReference = 9602E8AB17341A9B000482D5 /* StringMask.app */;
+			name = RCDebossedLabel;
+			productName = RCDebossedLabel;
+			productReference = 9602E8AB17341A9B000482D5 /* RCDebossedLabel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +147,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Rich Cameron";
 			};
-			buildConfigurationList = 9602E8A617341A9B000482D5 /* Build configuration list for PBXProject "StringMask" */;
+			buildConfigurationList = 9602E8A617341A9B000482D5 /* Build configuration list for PBXProject "RCDebossedLabel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9602E8AA17341A9B000482D5 /* StringMask */,
+				9602E8AA17341A9B000482D5 /* RCDebossedLabel */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +185,8 @@
 			files = (
 				9602E8BB17341A9C000482D5 /* main.m in Sources */,
 				9602E8BF17341A9C000482D5 /* RCAppDelegate.m in Sources */,
+				9602E8CF17341F60000482D5 /* RCMainViewController.m in Sources */,
+				9BECB3FF173B1A30001BBFA0 /* RCDebossedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,9 +264,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "StringMask/StringMask-Prefix.pch";
-				INFOPLIST_FILE = "StringMask/StringMask-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Example/RCDebossedLabel-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/RCDebossedLabel-Info.plist";
+				PRODUCT_NAME = RCDebossedLabel;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -255,9 +275,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "StringMask/StringMask-Prefix.pch";
-				INFOPLIST_FILE = "StringMask/StringMask-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "StringMask/RCDebossedLabel-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/RCDebossedLabel-Info.plist";
+				PRODUCT_NAME = RCDebossedLabel;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -265,7 +285,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9602E8A617341A9B000482D5 /* Build configuration list for PBXProject "StringMask" */ = {
+		9602E8A617341A9B000482D5 /* Build configuration list for PBXProject "RCDebossedLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9602E8C617341A9C000482D5 /* Debug */,
@@ -274,13 +294,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9602E8C817341A9C000482D5 /* Build configuration list for PBXNativeTarget "StringMask" */ = {
+		9602E8C817341A9C000482D5 /* Build configuration list for PBXNativeTarget "RCDebossedLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9602E8C917341A9C000482D5 /* Debug */,
 				9602E8CA17341A9C000482D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
